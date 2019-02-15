@@ -1,7 +1,8 @@
 function Triangles() {
-var x = parseInt (prompt('X'));
-var y = parseInt (prompt('Y'));
-var z = parseInt (prompt('Z'));
+  var x = document.getElementById("x").value;
+  var y = document.getElementById("y").value;
+  var z = document.getElementById("z").value;
+
 if (x === y && x === z && y === z) {
 alert ("EQUILATERAL TRIANGLE");
 }
