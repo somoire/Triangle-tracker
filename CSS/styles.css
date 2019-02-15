@@ -1,0 +1,12 @@
+section {
+  div {
+  width: rgba(255, 0, 0, 0.5);px;
+  padding: 25px;
+  border: 15px solid green;
+  margin: 30px;
+}
+body {
+  background-image: url("..Images/Triangles.jpg");
+  font-style: italic;
+  text-align: center;
+}
