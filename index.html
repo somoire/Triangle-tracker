@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
+<head>
 <h1> TRIANGLE TRACKER </h1>
+  <link href="CSS/styles.css" rel="stylesheet" type="text/CSS">
+  <script src="js/scripts.js"></script>
+</head>
 <body>
   <p> This application enables a person to be able to identify the type of triangle that may be formed when the dimensions are input.</p>
   <p> INSTRUCTIONS </P>
@@ -9,24 +13,25 @@
       <li>Click on the submit button
       <li>Wait for your command to be processed
     </ul>
-<script src="js/scripts.js"></script>
 </body>
 <form action="" method="get" onkeypress="form">
   <div onkeypress="value">
     <label for="Value">Input your value: </label>
-    <input type="number" name="value" id="value" required>
+    <input type="number" name="value" id="x" required>
   </div>
 
 
   <div onkeypress="value">
     <label for="Value">Input your value: </label>
-    <input type="number" name="value" id="value" required>
+    <input type="number" name="value" id="y" required>
   </div>
 
 
   <div onkeypress="value">
     <label for="Value">Input your value: </label>
-    <input type="number" name="value" id="value" required>
+    <input type="number" name="value" id="z" required>
   </div>
+  <input type="submit" name="button" value="submit" id="button" onclick="Triangles()">
+
 </form>
-<input type="button" name="button" value="submit" id="button" onclick="Triangles()">
+</html>
