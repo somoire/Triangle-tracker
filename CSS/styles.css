@@ -1,9 +1,8 @@
-section {
-  div {
+div {
   width: rgba(255, 0, 0, 0.5);px;
-  padding: 25px;
-  border: 15px solid green;
-  margin: 30px;
+  padding: 23px;
+  border: 10px solid blue;
+  margin: 34px;
 }
 body {
   background-image: url("..Images/Triangles.jpg");
