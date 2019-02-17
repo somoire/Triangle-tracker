@@ -1,11 +1,10 @@
 div {
   width: rgba(255, 0, 0, 0.5);px;
   padding: 23px;
-  border: 10px solid blue;
+  border: 10px solid purple;
   margin: 34px;
 }
-body {
-  background-image: url("..Images/Triangles.jpg");
-  font-style: italic;
+h1 {
   text-align: center;
+  color: green;
 }
