@@ -10,4 +10,6 @@ h1 {
 }
 p {
   text-align: justify;
+  text-indent: 25px;
+  direction: ltr;
 }
